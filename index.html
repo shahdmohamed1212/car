@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car-web</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- remix icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <figure class="logo">
+            <img src="favicon.png" alt="logo" />
+            <figcaption>Elecar</figcaption>
+          </figure>
+          <ul class="list" id="navList">
+            <li class="close_icon" onclick="closeIcon()">
+              <a href="#"><i class="ri-close-fill"></i></a>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Featured</a></li>
+          </ul>
+          <div class="three-dash" id="three-dash" onclick="openIcon()">
+            <i class="ri-menu-line"></i>
+          </div>
+        </nav>
+        <section class="hero">
+          <!-- hero-title -->
+          <div class="hero-title">
+            <h1>Choose The Best Car</h1>
+            <h5>Pourshe Mession E</h5>
+            <p><i class="ri-flashlight-fill"></i> Electric Car</p>
+          </div>
+          <img src="home.png" alt="home-pourshe" />
+
+          <div class="hero-info">
+            <!-- hero-info-content -->
+            <div class="hero-center">
+              <div class="hero-info-content">
+                <i class="ri-temp-cold-line"></i>
+                <h5>24&deg;</h5>
+                <p>tempreture</p>
+              </div>
+              <div class="hero-info-content">
+                <i class="ri-speed-up-fill"></i>
+                <h5>873</h5>
+                <p>mileage</p>
+              </div>
+              <div class="hero-info-content">
+                <i class="ri-flashlight-fill"></i>
+                <h5>94%</h5>
+                <p>battery</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <script src="./script.js"></script>
+  </body>
+</html>
